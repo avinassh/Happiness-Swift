@@ -13,6 +13,7 @@
 		82E4E0321AA1A2AD00804EA4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82E4E0301AA1A2AD00804EA4 /* LaunchScreen.xib */; };
 		82E4E03E1AA1A2AD00804EA4 /* HappinessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E4E03D1AA1A2AD00804EA4 /* HappinessTests.swift */; };
 		82E4E0481AA1A31600804EA4 /* HappinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E4E0471AA1A31600804EA4 /* HappinessViewController.swift */; };
+		82E4E04A1AA1A39D00804EA4 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E4E0491AA1A39D00804EA4 /* FaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		82E4E03C1AA1A2AD00804EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82E4E03D1AA1A2AD00804EA4 /* HappinessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappinessTests.swift; sourceTree = "<group>"; };
 		82E4E0471AA1A31600804EA4 /* HappinessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappinessViewController.swift; sourceTree = "<group>"; };
+		82E4E0491AA1A39D00804EA4 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				82E4E0271AA1A2AD00804EA4 /* AppDelegate.swift */,
 				82E4E0471AA1A31600804EA4 /* HappinessViewController.swift */,
+				82E4E0491AA1A39D00804EA4 /* FaceView.swift */,
 				82E4E02B1AA1A2AD00804EA4 /* Main.storyboard */,
 				82E4E02E1AA1A2AD00804EA4 /* Images.xcassets */,
 				82E4E0301AA1A2AD00804EA4 /* LaunchScreen.xib */,
@@ -214,6 +217,7 @@
 			files = (
 				82E4E0481AA1A31600804EA4 /* HappinessViewController.swift in Sources */,
 				82E4E0281AA1A2AD00804EA4 /* AppDelegate.swift in Sources */,
+				82E4E04A1AA1A39D00804EA4 /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
