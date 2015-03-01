@@ -8,6 +8,10 @@
 
 import UIKit
 
+protocol FaceViewDataSource: class {
+    func smilinessForFaceView(sender: FaceView) -> Double?
+}
+
 @IBDesignable
 class FaceView: UIView {
     
@@ -36,6 +40,8 @@ class FaceView: UIView {
     }
     
     private enum Eye { case Left, Right }
+    
+    weak var dataSource: FaceViewDataSource?
     
     private func bezierPathForEye(whichEye: Eye) -> UIBezierPath {
         let eyeRadius = faceRadius / Scaling.FaceRadiusToEyeRadiusRatio
@@ -97,7 +103,7 @@ class FaceView: UIView {
         bezierPathForEye(.Left).stroke()
         bezierPathForEye(.Right).stroke()
         
-        let smiliness = 0.0
+        let smiliness = dataSource?.smilinessForFaceView(self) ?? 0.0
         let smilePath = bezierPathForSmile(smiliness)
         smilePath.stroke()
     }

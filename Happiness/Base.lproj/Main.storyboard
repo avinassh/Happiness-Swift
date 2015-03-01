@@ -40,6 +40,9 @@
                             <constraint firstItem="i95-Vs-oF0" firstAttribute="top" secondItem="7Pd-l6-KSg" secondAttribute="top" id="qSJ-xR-6V4"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="faceView" destination="i95-Vs-oF0" id="2Uz-rK-3VQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DZY-1X-c0O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
